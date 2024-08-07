@@ -3,7 +3,6 @@ import numpy as np
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
-import distutils.core
 
 chart_data = pd.DataFrame(np.random.randn(20,3),
                           columns = ["Line1", "line2", "line3"])
